@@ -1,0 +1,129 @@
+body{
+    margin-top: 30px;
+    background-color: black;
+    color: grey;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+}
+
+.main{
+    margin-top: 10%;
+}
+
+.result-box{
+    background-color: white;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding: 5px 30px 5px 30px;
+    color: black;
+}
+
+.title{
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+.random-article{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+.random-article a{
+    color: grey;
+    text-decoration: none;
+}
+
+.random-article a:visited{
+    color: grey;
+    text-decoration: none;
+}
+
+.random-article a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.search-box{
+    height: 100px;
+    width: 60%;
+    margin: auto;
+}
+
+#wrap{
+    position: relative;
+    height: 60px;
+    float: right;
+    padding: 0px;
+    width: 100%
+}
+
+#search{
+    height: 60px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: grey;
+    padding: 3px 25px 3px 3px;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: none;
+    z-index: 3;
+    transition: width 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+#search:focus:hover {
+    border-bottom: 1px solid grey;
+}
+
+#search:focus{
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid grey;
+}
+
+#search-submit{
+    display: inline-block;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity .4s ease;
+    background: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+#search-submit:hover {
+    opacity: 0.8;
+  }
+
+header{
+	text-align: right;
+	font-size: 0.8em;
+	color: grey;
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header a{
+	color: grey;
+}
+
+header a:visited{
+	color: grey;
+}
+
+header a:hover{
+	color: white;
+}
