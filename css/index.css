@@ -20,9 +20,12 @@ body{
     color: black;
 }
 
+.all-results{
+    display: none;
+}
+
 .title{
-    font-family: 'Share Tech Mono', monospace;
-    
+    font-family: 'Share Tech Mono', monospace;   
 }
 
 .random-article{
@@ -46,67 +49,43 @@ body{
 }
 
 .search-box{
-    height: 100px;
     width: 60%;
     margin: auto;
-}
-
-#wrap{
-    position: relative;
-    height: 60px;
-    float: right;
-    padding: 0px;
-    width: 100%
+    text-align: right;
 }
 
 #search{
-    height: 60px;
-    font-size: 30px;
-    display: inline-block;
+    font-size: 2.5em;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 100;
     border: none;
     outline: none;
     color: grey;
-    padding: 3px 25px 3px 3px;
-    width: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    padding: 3px;
     background: none;
-    z-index: 3;
-    transition: width 0.5s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
-}
-
-#search:focus:hover {
-    border-bottom: 1px solid grey;
-}
-
-#search:focus{
-    width: 100%;
-    z-index: 1;
-    border-bottom: 1px solid grey;
+    height: 50px;
+    margin: auto;
+    width:0%;
+    border-radius: 0px;
+    color: white;
 }
 
 #search-submit{
-    display: inline-block;
     border: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
     cursor: pointer;
-    opacity: 0.4;
-    transition: opacity .4s ease;
     background: none;
-    color: white;
-    font-size: 1.5em;
+    color: grey;
+    font-size: 2.5em;
+    margin: auto;
 }
 
 #search-submit:hover {
-    opacity: 0.8;
-  }
+    color: white;
+}
+
+.submit-box{
+    background: none;
+}
 
 header{
 	text-align: right;

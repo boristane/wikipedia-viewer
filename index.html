@@ -6,7 +6,9 @@
     <title>Stylish Wikipedia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/fa-svg-with-js.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css"/>
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Happy+Monkey|Share+Tech+Mono" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/index.js"></script>
@@ -22,12 +24,16 @@
         <h1 class="random-article"><a href="#" target="_blank">Wikipedia has a surprise for you</a></h1>
         
         <div class="search-box">
-            <div id="wrap">
-                <form action="" autocomplete="on">
-                    <input id="search" name = "search" type="text" placeholder="How can wikipedia help you today ?"/>
-                    <p id="search-submit" value="search"><i class="fas fa-search"></i></p>
+                <form action="" autocomplete="off">
+                    <div class="row">
+                        <div class="eleven columns">
+                            <input id="search" name = "search" type="text" placeholder="How can wikipedia help you today ?"/>
+                        </div>
+                        <div class="one column submit-box" >
+                            <p id="search-submit" value="search"><i class="fas fa-search"></i></p>
+                        </div>
+                    </div>
                 </form>
-            </div>
         </div>
     </section>
 
