@@ -1,50 +1,78 @@
 body{
     margin-top: 30px;
-    background-color: black;
-    color: grey;
+    background-color: #474747;
+    color: #ABABAB;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
 }
 
 .main{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .result-box{
     background-color: white;
     border-radius: 3px;
-    width: 60%;
-    margin: auto;
+    margin: 15px auto;
     text-align: left;
     padding: 5px 30px 5px 30px;
-    color: black;
-}
-
-.all-results{
+    color: #474747;
     display: none;
 }
 
+.result-box:hover{
+    border-left: 10px solid #2da3de;
+    
+}
+
+.results-container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.description{
+    font-size: 1.0em;
+    margin: 0 0 15px 0;
+}
+
+.foo{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
 .title{
-    font-family: 'Share Tech Mono', monospace;   
+    font-family: 'Share Tech Mono', monospace; 
+    text-decoration: none;
+    font-size: 0.5em;  
+    color: black;
+}
+
+.title:hover{
+    color: #2da3de;
+}
+
+.link-container{
+    text-decoration: none;
 }
 
 .random-article{
     font-family: 'Advent Pro', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .random-article a{
-    color: grey;
+    color: #ABABAB;
     text-decoration: none;
 }
 
 .random-article a:visited{
-    color: grey;
+    color: #ABABAB;
     text-decoration: none;
 }
 
 .random-article a:hover{
-    color: white;
+    color: #E2E2E2;
     text-decoration: none;
 }
 
@@ -55,15 +83,15 @@ body{
 }
 
 #search{
-    font-size: 2.5em;
+    font-size: 20px;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 100;
     border: none;
     outline: none;
-    color: grey;
+    color: #ABABAB;
     padding: 3px;
     background: none;
-    height: 50px;
+    height: 30px;
     margin: auto;
     width:0%;
     border-radius: 0px;
@@ -74,8 +102,8 @@ body{
     border: none;
     cursor: pointer;
     background: none;
-    color: grey;
-    font-size: 2.5em;
+    color: #ABABAB;
+    font-size: 20px;
     margin: auto;
 }
 
@@ -90,17 +118,17 @@ body{
 header{
 	text-align: right;
 	font-size: 0.8em;
-	color: grey;
+	color: #ABABAB;
     margin: 20px;
     font-family: 'Share Tech Mono', monospace;
 }
 
 header a{
-	color: grey;
+	color: #ABABAB;
 }
 
 header a:visited{
-	color: grey;
+	color: #ABABAB;
 }
 
 header a:hover{
