@@ -79,6 +79,10 @@ $("document").ready(function(){
         UI.titles = $(".title");
         UI.descriptions = $(".description");
         UI.linkContainers = $(".link-container");
+
+        if($(document).width() < 600) {
+            UI.searchBar.attr("placeholder", "Yes ?");
+        }
     }
 
     function addResult(obj, pos){
