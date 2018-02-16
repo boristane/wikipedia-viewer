@@ -132,7 +132,6 @@ $("document").ready(function(){
             });
             UI.resultsVisible = true;
         }, 400);
-        
     }
 
     

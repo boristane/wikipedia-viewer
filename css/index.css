@@ -21,8 +21,11 @@ body{
 }
 
 .result-box:hover{
-    border-left: 10px solid #2da3de;
-    
+    border-left: 10px solid #2da3de;  
+}
+
+.result-box:focus{
+    border-left: 10px solid #2da3de; 
 }
 
 .results-container{
